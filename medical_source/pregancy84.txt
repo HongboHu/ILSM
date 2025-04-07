@@ -1,0 +1,9 @@
+#B starts
+#B ends
+#E+ starts
+{f, b, a, d, e}
+#E+ ends
+#E- starts
+{d, a, c}
+{f, c, e}
+#E- ends

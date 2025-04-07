@@ -1,0 +1,7 @@
+#B starts
+a :- .
+#B ends
+#E+ starts
+#E+ ends
+#E- starts
+#E- ends

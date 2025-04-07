@@ -1,0 +1,13 @@
+#B starts
+d :- b,not c.
+e :- b,d.
+a :- .
+f :- d,a.
+c :- b,not d.
+e :- b,c.
+#B ends
+#E+ starts
+{f, b, a, d, e}
+#E+ ends
+#E- starts
+#E- ends

@@ -1,0 +1,10 @@
+#B starts
+e :- b,c.
+#B ends
+#E+ starts
+#E+ ends
+#E- starts
+{b, a}
+{b, e, d}
+{c, a, b}
+#E- ends
