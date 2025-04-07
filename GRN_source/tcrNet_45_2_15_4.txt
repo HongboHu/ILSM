@@ -1,0 +1,67 @@
+#B starts
+e :- g.
+af :- ac.
+ai :- ab.
+ar :- ap,al.
+k :- j.
+s :- l,o,p,j.
+al :- ag.
+ak :- ag.
+t :- aa.
+ah :- ab.
+e :- not d.
+i :- g.
+m :- j.
+g :- a,f.
+ap :- am.
+am :- ah.
+a :- a.
+an :- not ai.
+o :- n.
+l :- j,o.
+g :- a,d.
+b :- b.
+f :- a,b,not e.
+aj :- af.
+t :- q.
+s :- j,o,p,h.
+j :- i,f,not k.
+at :- aj.
+h :- f.
+ac :- s.
+c :- c.
+as :- not an.
+p :- m.
+ad :- t.
+ag :- ae.
+q :- m.
+ao :- ak.
+ae :- ad.
+ab :- r.
+aa :- ab,r.
+n :- m.
+aq :- ao.
+i :- f,d.
+r :- s.
+d :- c,not k.
+#B ends
+#E+ starts
+{e, an}
+#E+ ends
+#E- starts
+{j, i, af, ac, e, f, an, d, b, k, ai, g, ak, al, ab, am, q}
+{as, ac}
+{ap, ac, f, d, h, c}
+{aj, r, ab, aq, h}
+{a, i, aj, af, g, ad, al, am, h, ag, aa, ao, l, d, ai, o, at, q, ae, ap, ac, m, an, b, ar, p, t, as, s, e, f, ah, ab, n, aq, c}
+{i, ac, b, ad, ak, ab}
+{a, aj, ak, ad, al, h, aa, l, k, ai, o, q, ae, ap, an, b, ar, t, j, as, f, ah, ab, aq, c}
+{a, m, an, d, h, at, t}
+{as, s, m, al, o, t}
+{ag, ap, aj, q, l, f, ar, g, ad, n, aq, c, t}
+{a, i, aj, af, g, ad, ak, al, am, h, aa, ag, ao, l, d, k, ai, o, at, q, ae, ap, r, m, ac, an, b, ar, p, t, j, as, s, e, f, ah, ab, n, aq, c}
+{ae, i, aj, af, l, e, f, an, ah, k, o, t}
+{i, aj, l, ar, n, h, q}
+{a, i, aj, af, g, ak, ad, al, am, h, aa, ao, ag, l, d, k, ai, o, q, ae, ap, r, m, ac, an, b, ar, p, t, j, as, s, e, f, ah, ab, n, aq, c}
+{a, af, g, ad, al, am, h, aa, ag, d, ai, o, at, q, ap, r, ar, p, j, as, s, e, f, ab, n, c}
+#E- ends

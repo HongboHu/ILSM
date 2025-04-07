@@ -1,0 +1,51 @@
+%meta(B)
+e(b, X) :-  ex(X).
+e(c, X) :- e(b, X),not e(d, X), ex(X).
+e(f, X) :- e(c, X),e(a, X), ex(X).
+e(e, X) :- e(b, X),e(d, X), ex(X).
+%meta(E+)
+ex(0).
+:- not covered(0).
+covered(0) :- e(f, 0),e(a, 0),e(b, 0),e(e, 0),e(d, 0),not e(c, 0).
+%meta(E-)
+violating :- e(f, neg),not e(c, neg),not e(a, neg),not e(b, neg),not e(e, neg),not e(d, neg).
+violating :- e(f, neg),e(c, neg),e(a, neg),e(b, neg),e(e, neg),e(d, neg).
+violating :- e(b, neg),e(a, neg),not e(f, neg),not e(c, neg),not e(e, neg),not e(d, neg).
+%meta(Aux, n) 
+:- #count{ R : active(R)} != n.
+#show active/1. 
+%for the 100-th rule%meta(Sm) 
+{active(1)}.
+e(f, X) :-  ex(X), active(1). 
+{active(2)}.
+e(f, X) :- not e(f, X), ex(X), active(2). 
+{active(3)}.
+e(f, X) :- not e(c, X), ex(X), active(3). 
+{active(4)}.
+e(f, X) :- not e(a, X), ex(X), active(4). 
+{active(5)}.
+e(f, X) :- not e(b, X), ex(X), active(5). 
+{active(6)}.
+e(f, X) :- not e(e, X), ex(X), active(6). 
+{active(7)}.
+e(f, X) :- not e(d, X), ex(X), active(7). 
+{active(8)}.
+e(f, X) :- not e(f, X),not e(c, X), ex(X), active(8). 
+{active(9)}.
+e(f, X) :- not e(f, X),not e(a, X), ex(X), active(9). 
+{active(10)}.
+e(f, X) :- not e(b, X),not e(f, X), ex(X), active(10). 
+{active(11)}.
+e(f, X) :- not e(f, X),not e(e, X), ex(X), active(11). 
+{active(12)}.
+e(f, X) :- not e(f, X),not e(d, X), ex(X), active(12). 
+{active(13)}.
+e(f, X) :- not e(c, X),not e(a, X), ex(X), active(13). 
+{active(14)}.
+e(f, X) :- not e(b, X),not e(c, X), ex(X), active(14). 
+{active(15)}.
+e(f, X) :- not e(c, X),not e(e, X), ex(X), active(15). 
+{active(16)}.
+e(f, X) :- not e(c, X),not e(d, X), ex(X), active(16). 
+{active(17)}.
+e(f, X) :- not e(b, X),n
