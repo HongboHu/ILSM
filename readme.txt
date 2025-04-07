@@ -18,5 +18,7 @@ for example, the file "ILASPmeta_arabidopsis_12_1_1.las" corresponds to the orig
 Furthermore, files like "ILASPmeta_arabidopsis_12_1_1.las" can be directed used as the input of ILASP via the command 
 "ILASP --version=4 -nc -ml=1000 --max-rule-length=1000 -q ILASPmeta_arabidopsis_12_1_1.las".
 
-The running results of "python compare.py" will be stored in the directory solutions.
+The running results of "python compare.py" will be stored in the directory solutions. 
+File "record_comparison.xlsx" in this directory has already been written down all the results of our comparison experiments. 
+Namely, the statistic result in the paper comes from these results. 
 For more details about the solutions, please refer to the "readme.txt" there.
