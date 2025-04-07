@@ -1,0 +1,7 @@
+#B starts
+#B ends
+#E+ starts
+{e, an}
+#E+ ends
+#E- starts
+#E- ends

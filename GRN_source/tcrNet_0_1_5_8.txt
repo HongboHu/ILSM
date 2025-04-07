@@ -1,0 +1,11 @@
+#B starts
+#B ends
+#E+ starts
+#E+ ends
+#E- starts
+{a, ae, an, k, at}
+{a, i, aj, af, g, ad, am, h, ag, ao, aa, l, d, k, ai, o, at, q, ae, ap, ac, m, b, ar, p, t, j, as, s, e, ab, aq, c}
+{a, af, al, am, h, ag, aa, ao, l, d, ae, r, ac, an, b, ar, p, t, as, s, e, ah}
+{a, i, aj, al, am, h, ag, ao, aa, l, d, k, ai, o, at, q, ae, m, ac, an, b, p, t, s, e, f, ab, n, aq, c}
+{a, i, aj, af, g, al, am, h, ag, aa, ao, l, d, k, ai, o, at, q, ae, ap, r, ac, an, b, ar, p, t, j, as, s, f, ah, n, aq}
+#E- ends
