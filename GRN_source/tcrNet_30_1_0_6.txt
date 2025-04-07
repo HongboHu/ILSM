@@ -1,0 +1,36 @@
+#B starts
+i :- g.
+p :- m.
+c :- c.
+ak :- ag.
+n :- m.
+g :- a,d.
+k :- j.
+as :- not an.
+af :- ac.
+at :- aj.
+f :- a,b,not e.
+d :- c,not k.
+ao :- ak.
+ad :- t.
+t :- q.
+al :- ag.
+t :- aa.
+g :- a,f.
+i :- f,d.
+q :- m.
+aa :- ab,r.
+an :- not ai.
+ai :- ab.
+ab :- r.
+h :- f.
+aj :- af.
+a :- a.
+l :- j,o.
+ag :- ae.
+b :- b.
+#B ends
+#E+ starts
+#E+ ends
+#E- starts
+#E- ends

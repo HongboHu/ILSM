@@ -1,0 +1,27 @@
+#B starts
+f :- a,b,not e.
+ak :- ag.
+aj :- af.
+c :- c.
+r :- s.
+ac :- s.
+e :- g.
+as :- not an.
+j :- i,f,not k.
+q :- m.
+al :- ag.
+af :- ac.
+an :- not ai.
+am :- ah.
+p :- m.
+#B ends
+#E+ starts
+{e, an}
+#E+ ends
+#E- starts
+{o, aj, an, s}
+{aa, ao, as, r, af, ac, ab, ah, b, ar, ai, al, am, h, c, q}
+{j, ao, r, g, al, am}
+{aa, ag, i, as, s, m, an, d, k, ai, al, am, c, t}
+{a, aj, ak, ad, al, aa, ag, l, k, ai, q, r, m, ac, b, t, s, e, ah, n, aq, c}
+#E- ends
