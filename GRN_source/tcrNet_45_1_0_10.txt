@@ -1,0 +1,51 @@
+#B starts
+g :- a,d.
+t :- q.
+ag :- ae.
+c :- c.
+aa :- ab,r.
+ad :- t.
+at :- aj.
+i :- f,d.
+aj :- af.
+an :- not ai.
+aq :- ao.
+m :- j.
+j :- i,f,not k.
+ai :- ab.
+ah :- ab.
+r :- s.
+i :- g.
+ac :- s.
+e :- not d.
+o :- n.
+ab :- r.
+as :- not an.
+k :- j.
+f :- a,b,not e.
+am :- ah.
+ar :- ap,al.
+p :- m.
+g :- a,f.
+l :- j,o.
+ap :- am.
+al :- ag.
+d :- c,not k.
+n :- m.
+t :- aa.
+b :- b.
+e :- g.
+af :- ac.
+ae :- ad.
+a :- a.
+ak :- ag.
+h :- f.
+s :- l,o,p,j.
+q :- m.
+s :- j,o,p,h.
+ao :- ak.
+#B ends
+#E+ starts
+#E+ ends
+#E- starts
+#E- ends
