@@ -1,0 +1,10 @@
+#B starts
+#B ends
+#E+ starts
+{j, g, h, d, o, n, c}
+#E+ ends
+#E- starts
+{l, o, j, g, e, f}
+{j, m, k, e}
+{b, h, e}
+#E- ends

@@ -1,0 +1,18 @@
+#B starts
+c :- not e,not m.
+e :- g,not j.
+m :- f,not g,not e.
+j :- g,not k.
+g :- not m.
+h :- not m.
+n :- n,e,a,o.
+a :- g,b.
+j :- g,not l.
+f :- not g.
+o :- g.
+i :- i,not o.
+#B ends
+#E+ starts
+#E+ ends
+#E- starts
+#E- ends

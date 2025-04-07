@@ -1,0 +1,29 @@
+#B starts
+h :- not m.
+g :- not m.
+j :- g,not l.
+o :- g.
+i :- i,not j.
+j :- not h,not m.
+a :- g,b.
+j :- g,not k.
+m :- f,not g,not e.
+g :- not f.
+c :- not e,not m.
+n :- n,e,a,o.
+a :- n,e,a,o.
+d :- not f.
+e :- g,not j.
+n :- g,a.
+n :- j,g.
+a :- n,j,a,o.
+#B ends
+#E+ starts
+{f, m}
+#E+ ends
+#E- starts
+{g, a, b}
+{d, h, c, e, b, l}
+{i, o, d, h, f, j, e, g}
+{o, n, m, a, c, e, g}
+#E- ends

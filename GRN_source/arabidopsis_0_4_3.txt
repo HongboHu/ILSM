@@ -1,0 +1,11 @@
+#B starts
+#B ends
+#E+ starts
+{f, m}
+{j, g, h, d, o, n, c}
+#E+ ends
+#E- starts
+{d, l, a, o, j, k, h, e, f, n, b, c, m}
+{d, l, j, g, k, h, e, f, n, b, c}
+{d, a, h, f, b, c}
+#E- ends
